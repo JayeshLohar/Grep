@@ -1,6 +1,8 @@
 # DSA Project : GREP
 To run program run the command `make`
+
 Usage: `grep [OPTION]... PATTERNS [FILE]...`
+
 Try `'grep --help'` for more information.
 ### Flags :
   - `-i`  ignore case distinctions in patterns and data

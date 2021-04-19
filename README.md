@@ -1,4 +1,7 @@
 # DSA Project : GREP
+To run program run the command `make`
+Usage: `grep [OPTION]... PATTERNS [FILE]...`
+Try `'grep --help'` for more information.
 ### Flags :
   - `-i`  ignore case distinctions in patterns and data
   - `-w`  match only whole words
@@ -16,6 +19,7 @@
   - `-c`  print only a count of selected lines per FILE
   - `-E`  patterns are extended regular expressions
   - `-q`  quit
+###  Regular Expression Implemented :
   -  `^`         Start anchor, matches beginning of string
   -  `$`         End anchor, matches end of string
   -  `*`         Asterisk, match zero or more (greedy)
